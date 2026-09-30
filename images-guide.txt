@@ -1,0 +1,61 @@
+Put your real phone photos in this folder, using EXACTLY these filenames
+(these match what script.js expects for each listing):
+
+iphone-7-32gb.jpg   <- iPhone 7 32GB
+iphone-8-64gb.jpg   <- iPhone 8 64GB
+iphone-xr-64gb.jpg   <- iPhone XR 64GB
+iphone-11-64gb.jpg   <- iPhone 11 64GB
+iphone-11-128gb.jpg   <- iPhone 11 128GB
+iphone-12-64gb.jpg   <- iPhone 12 64GB
+iphone-12-128gb.jpg   <- iPhone 12 128GB
+iphone-12pro-128gb.jpg   <- iPhone 12 Pro 128GB
+iphone-12promax-128gb.jpg   <- iPhone 12 Pro Max 128GB
+iphone-12promax-256gb.jpg   <- iPhone 12 Pro Max 256GB
+iphone-13-128gb.jpg   <- iPhone 13 128GB
+iphone-13-256gb.jpg   <- iPhone 13 256GB
+iphone-13pro-128gb.jpg   <- iPhone 13 Pro 128GB
+iphone-13promax-128gb.jpg   <- iPhone 13 Pro Max 128GB
+iphone-14-128gb.jpg   <- iPhone 14 128GB
+iphone-14plus-128gb.jpg   <- iPhone 14 Plus 128GB
+iphone-14pro-128gb.jpg   <- iPhone 14 Pro 128GB
+iphone-14promax-128gb.jpg   <- iPhone 14 Pro Max 128GB
+iphone-15-128gb.jpg   <- iPhone 15 128GB
+iphone-15plus-128gb.jpg   <- iPhone 15 Plus 128GB
+iphone-15pro-128gb.jpg   <- iPhone 15 Pro 128GB
+iphone-15promax-256gb.jpg   <- iPhone 15 Pro Max 256GB
+iphone-16e-128gb.jpg   <- iPhone 16e 128GB
+iphone-16-128gb.jpg   <- iPhone 16 128GB
+iphone-16plus-128gb.jpg   <- iPhone 16 Plus 128GB
+iphone-16pro-128gb.jpg   <- iPhone 16 Pro 128GB
+iphone-16promax-256gb.jpg   <- iPhone 16 Pro Max 256GB
+iphone-17e-128gb.jpg   <- iPhone 17e 128GB
+iphone-17-128gb.jpg   <- iPhone 17 128GB
+iphone-air-256gb.jpg   <- iPhone Air 256GB
+iphone-17pro-256gb.jpg   <- iPhone 17 Pro 256GB
+iphone-17promax-256gb.jpg   <- iPhone 17 Pro Max 256GB
+iphone-18pro-256gb.jpg   <- iPhone 18 Pro 256GB (BRAND NEW listing)
+iphone-18promax-256gb.jpg   <- iPhone 18 Pro Max 256GB (BRAND NEW listing)
+
+Tips for good photos:
+- Plain, uncluttered background (a white/grey surface or plain wall)
+- Natural daylight, not flash - avoid glare on the screen/glass
+- Shoot straight-on (not at an angle) so the phone fills most of the frame
+- Same background/lighting across all photos so the shop looks consistent
+- If a listing has no photo yet, the site automatically shows the
+  illustrated placeholder instead - nothing breaks.
+
+IMPORTANT ON PRICING:
+Every price for iPhone 7 through 14 Pro came from you directly.
+Prices for the 13 Pro / 13 Pro Max / 14 / 14 Plus / 14 Pro Max / 15 series /
+16 series / 17 series / Air / 18 series are RESEARCH-BASED ESTIMATES pulled
+from current Nigerian resale listings (Sept 2026), not your real supplier
+cost. Open script.js, find the PRODUCTS array near the top, and update the
+"price:" field for each one to match what you actually pay + your margin
+before this site goes live.
+
+ON THE IPHONE 18 PRO / PRO MAX LISTINGS:
+These launched globally on 18 Sept 2026 - only days ago. There is no such
+thing as UK AsSeen used stock of these yet. The site marks them
+condition:"new" in script.js so they show a BRAND NEW badge instead of
+AS SEEN. If you are not actually stocking factory-sealed units of these
+yet, delete these two entries from the PRODUCTS array until you are.
