@@ -51,15 +51,15 @@ const PRODUCTS = [
   {id:25, name:'iPhone 16 Pro',       storage:'128GB', series:'16', seriesLabel:'iPhone 16 series', price:1270000, color:'Assorted', image:'images/iphone-16pro-128gb.jpg'},     // est.
   {id:26, name:'iPhone 16 Pro Max',   storage:'256GB', series:'16', seriesLabel:'iPhone 16 series', price:1580000, color:'Assorted', image:'images/iphone-16promax-256gb.jpg'},  // est.
   /* ---- iPhone 17 series + Air ---- */
-  {id:32, name:'iPhone 17e',          storage:'128GB', series:'17', seriesLabel:'iPhone 17 series', price:870000,  color:'Assorted', image:'images/iphone-17e-128gb.jpg'},       // est.
-  {id:28, name:'iPhone 17',           storage:'128GB', series:'17', seriesLabel:'iPhone 17 series', price:1180000, color:'Assorted', image:'images/iphone-17-128gb.jpg'},        // est.
-  {id:31, name:'iPhone Air',          storage:'256GB', series:'air', seriesLabel:'iPhone Air',       price:1480000, color:'Assorted', image:'images/iphone-air-256gb.jpg'},      // est.
-  {id:29, name:'iPhone 17 Pro',       storage:'256GB', series:'17', seriesLabel:'iPhone 17 series', price:1680000, color:'Assorted', image:'images/iphone-17pro-256gb.jpg'},     // est.
-  {id:30, name:'iPhone 17 Pro Max',   storage:'256GB', series:'17', seriesLabel:'iPhone 17 series', price:1980000, color:'Assorted', image:'images/iphone-17promax-256gb.jpg'},  // est.
+  {id:32, name:'iPhone 17e',          storage:'128GB', series:'17', seriesLabel:'iPhone 17 series', price:870000,  color:'Assorted', image:'images/iphone-17e-128gb.jpg', condition:'new'},       // est.
+  {id:28, name:'iPhone 17',           storage:'128GB', series:'17', seriesLabel:'iPhone 17 series', price:1180000, color:'Assorted', image:'images/iphone-17-128gb.jpg', condition:'new'},        // est.
+  {id:31, name:'iPhone Air',          storage:'256GB', series:'air', seriesLabel:'iPhone Air',       price:109000, color:'Assorted', image:'images/iphone-air-256gb.jpg', condition:'new'},      // est.
+  {id:29, name:'iPhone 17 Pro',       storage:'256GB', series:'17', seriesLabel:'iPhone 17 series', price:1750000, color:'Assorted', image:'images/iphone-17pro-256gb.jpg', condition:'new'},     // est.
+  {id:30, name:'iPhone 17 Pro Max',   storage:'256GB', series:'17', seriesLabel:'iPhone 17 series', price:1900000, color:'Assorted', image:'images/iphone-17promax-256gb.jpg', condition:'new'},  // est.
   /* ---- iPhone 18 Pro / Pro Max — brand new (released 18 Sept 2026), sold
      sealed, NOT "AsSeen" — see condition:'new' handling in the render code ---- */
-  {id:33, name:'iPhone 18 Pro',       storage:'256GB', series:'18', seriesLabel:'iPhone 18 series', price:2450000, color:'Assorted', image:'images/iphone-18pro-256gb.jpg', condition:'new'},     // est.
-  {id:34, name:'iPhone 18 Pro Max',   storage:'256GB', series:'18', seriesLabel:'iPhone 18 series', price:2850000, color:'Assorted', image:'images/iphone-18promax-256gb.jpg', condition:'new'}, // est.
+  {id:33, name:'iPhone 18 Pro',       storage:'256GB', series:'18', seriesLabel:'iPhone 18 series', price:2020000, color:'Assorted', image:'images/iphone-18pro-256gb.jpg', condition:'new'},     // est.
+  {id:34, name:'iPhone 18 Pro Max',   storage:'256GB', series:'18', seriesLabel:'iPhone 18 series', price:2580000, color:'Assorted', image:'images/iphone-18promax-256gb.jpg', condition:'new'}, // est.
 ].map((p,i)=>({...p, tint:TINTS[i % TINTS.length]}));
 
 const SERIES_ORDER = [
