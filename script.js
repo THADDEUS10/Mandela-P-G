@@ -19,7 +19,7 @@ const PRODUCTS = [
   /* ---- iPhone 7 / 8 / XR ---- */
   {id:1,  name:'iPhone 7',            storage:'32GB',  series:'7',  seriesLabel:'iPhone 7',  price:75000,  color:'Assorted', image:'images/iphone-7-32gb.jpg'},
   {id:2,  name:'iPhone 8',            storage:'64GB',  series:'8',  seriesLabel:'iPhone 8',  price:110000, color:'Assorted', image:'images/iphone-8-64gb.jpg'},
-  {id:5,  name:'iPhone XR',           storage:'64GB',  series:'xr', seriesLabel:'iPhone XR', price:195000, color:'Assorted', image:'images/iphone-xr-64gb.jpg'},
+  {id:5,  name:'iPhone XR',           storage:'64GB',  series:'xr', seriesLabel:'iPhone XR', price:190000, color:'Assorted', image:'images/iphone-xr-64gb.jpg'},
   /* ---- iPhone 11 ---- */
   {id:3,  name:'iPhone 11',           storage:'64GB',  series:'11', seriesLabel:'iPhone 11', price:235000, color:'Assorted', image:'images/iphone-11-64gb.jpg'},
   {id:4,  name:'iPhone 11',           storage:'128GB', series:'11', seriesLabel:'iPhone 11', price:260000, color:'Assorted', image:'images/iphone-11-128gb.jpg'},
